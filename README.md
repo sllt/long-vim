@@ -1,17 +1,14 @@
-### Install
-1. clone the repo
 
-        git clone git://github.com/sllt/long-vim.git
+# INSTALL
+1. install vundle
 
-1. rename it
+`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-        mv long-vim ~/.vim
+2. clone this repo
 
-1. set up `~/.vimrc`, have a fake `.vimrc` in your `$HOME`
+`git clone https://github.com/sllt/long-vim.git ~/.vim/long-vim`
 
-        ln -s ~/.vim/vimrc ~/.vimrc
+3. set up vimrc
 
-1. you also need to install `Ctags`, `ack-grep`
-
-        sudo apt-get install exuberant-ctags ack-grep # for ubuntu
+`ln -s ~/.vim/long-vim/vimrc ~/.vimrc`
 
