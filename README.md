@@ -12,3 +12,6 @@
 
 `ln -s ~/.vim/long-vim/vimrc ~/.vimrc`
 
+4. install plugin
+
+cmd `:PluginInstall`
